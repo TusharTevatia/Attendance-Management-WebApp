@@ -1,0 +1,13 @@
+# Force LF line endings for all text files
+* text eol=lf
+
+# Enforce LF for specific file types
+*.sh text eol=lf
+*.svg text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+
+# Treat binary files explicitly (no line ending conversion)
+*.jpg binary
+*.png binary
+*.pdf binary
